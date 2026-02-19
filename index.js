@@ -14,7 +14,7 @@ const ADMIN_CHAT_ID = "8498959430";
 
 /* =========================== */
 
-const bot = new TelegramBot(TOKEN, { polling: true });
+const bot = new TelegramBot(TOKEN);
 
 // ====== Команда /start ======
 bot.onText(/\/start/, (msg) => {
@@ -61,7 +61,5 @@ ${order.items.map(item => `• ${item.name} — ${item.price}₽ x ${item.qty}`)
 
 /* ======= Запуск сервера ======= */
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log("Server started on port " + PORT);
-});
+module.exports = app;
+
