@@ -61,5 +61,11 @@ ${order.items.map(item => `• ${item.name} — ${item.price}₽ x ${item.qty}`)
 
 /* ======= Запуск сервера ======= */
 
+app.post(`/bot${TOKEN}`, (req, res) => {
+  bot.processUpdate(req.body);
+  res.sendStatus(200);
+});
+
 module.exports = app;
+
 
