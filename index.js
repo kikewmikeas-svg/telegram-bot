@@ -66,6 +66,11 @@ app.post(`/bot${TOKEN}`, (req, res) => {
   res.sendStatus(200);
 });
 
+app.get("/", (req, res) => {
+  res.send("Сайт работает 🚀");
+});
+
 module.exports = app;
+
 
 
