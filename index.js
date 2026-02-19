@@ -27,7 +27,7 @@ bot.onText(/\/start/, (msg) => {
                     [
                         {
                             text: "🛍 Открыть магазин",
-                            web_app: { url: "https://google.com" }
+                            web_app: { url: "https://telegram-bot-pied-xi.vercel.app" }
                         }
                     ]
                 ]
