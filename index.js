@@ -9,7 +9,7 @@ app.use(bodyParser.json());
    🔐 ВСТАВЬ СЮДА СВОИ ДАННЫЕ
 =========================== */
 
-const TOKEN = "8399073287:AAFUF2e88Cje2yQl70k9JangqnNn6A4QVjY";
+const TOKEN = "8399073287:AAGdutte_dCAnzFz3_euKv7CPdgyOLnavic";
 const ADMIN_CHAT_ID = "8498959430";
 
 /* =========================== */
